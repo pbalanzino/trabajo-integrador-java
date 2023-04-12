@@ -1,0 +1,13 @@
+ronda:
+    partido:
+        equipos:
+            cant. goles
+
+FaseGrupo:
+    ArgentinaVsArabiaSaudita:
+        equipos:
+            Argentina:
+                goles: 1
+            ArabiaSaudita:
+                goles: 2
+
