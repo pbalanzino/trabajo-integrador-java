@@ -26,7 +26,7 @@ Archivo **pronostico.csv**
 <table style="width: 100%; text-align: center;">
 <thead></thead>
 <tr><td>Equipo 1</td><td>Gana 1</td><td>Empata</td><td>Gana 2</td><td>Equipo 2</td></tr>
-<tr><td>Argentina</td>X<td></td><td></td><td>Arabia Saudita</td></tr>
+<tr><td>Argentina</td><td>X</td><td></td><td></td><td>Arabia Saudita</td></tr>
 <tr><td>Polonia</td><td></td><td>X</td><td></td><td>Mexico</td></tr>
 </table>
 
