@@ -32,4 +32,4 @@ Archivo **pronostico.csv**
 
 Leyendo los 2 (dos) archivos, y suponiendo que cada resultado acertado suma 1 (un) punto, la salida del programa debe ser: Puntaje = 1
 ### UML
-![alt="UML Entrega 1"](resources/umlEntrega1.png)
+![alt="UML Entrega 1"](assets/umlEntrega1.png)

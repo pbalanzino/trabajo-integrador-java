@@ -1,16 +1,12 @@
 package org.entrega1.modelo;
 
+
 public class Ronda extends Partido {
     private String nro;
-    private Partido[] partidos;
+    private Partido[] partidos = new Partido[2];
 
     public Ronda() {
         super();
-    }
-
-    public Ronda(String nro, Partido[] partidos) {
-        this.nro = nro;
-        this.partidos = new Partido[Integer.parseInt(nro)];
     }
 
     public String getNro() {
@@ -28,7 +24,8 @@ public class Ronda extends Partido {
     public void setPartidos(Partido[] partidos) {
         this.partidos = partidos;
     }
-//public int puntos() {
-//
-//}
+    public int puntos(){
+        int puntos = 0;
+        return puntos + partidos.length;
+    }
 }

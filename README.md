@@ -32,7 +32,7 @@ En este trabajo práctico nos limitaremos a pronosticar los resultados de los pa
 A continuación, se propone un diagrama de clases inicial que puede ser modificado en
 cualquier momento.
 
-![alt="UML Entrega 1"](./src/main/java/org/entrega1/resources/umlEntrega1.png)
+![alt="UML Entrega 1"](src/main/java/org/entrega1/assets/umlEntrega1.png)
 
 ### Metodología
 Luego de la presentación, se proponen entregas incrementales a lo largo del curso. El calendario definitivo será definido por cada docente.

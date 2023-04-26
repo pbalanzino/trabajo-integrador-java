@@ -9,8 +9,8 @@ import java.util.*;
 //import static sun.nio.ch.DatagramChannelImpl.AbstractSelectableChannels.forEach;
 
 public class Main {
-    public final static String ARCHIVO_RESULTADOS = "./src/main/java/org/entrega1/data/resultados.csv";
-    public final static String ARCHIVO_PRONOSTICO = "./src/main/java/org/entrega1/data/pronostico.csv";
+    public final static String ARCHIVO_RESULTADOS = "./src/main/java/org/entrega1/data/partidos.csv";
+    public final static String ARCHIVO_PRONOSTICO = "./src/main/java/org/entrega1/data/resultados.csv";
 
     public final static Map<String, List<String>> MAPA_RESULTADOS;
 
@@ -26,6 +26,8 @@ public class Main {
         Set<String> nombreEquipo = new HashSet<>();
         List<Equipo> equipos = new ArrayList<>();
         List<Partido> partidos = new ArrayList<>();
+        List<Ronda> rondas = new ArrayList<>();
+        List<Pronostico> pronosticos = new ArrayList<>();
 //      Se imprime el mapa de datos
 /*        for(Map.Entry<String, List<String>> index : MAPA_RESULTADOS.entrySet()) {
             System.out.println(index.getKey());
@@ -56,8 +58,14 @@ public class Main {
                 }
             });
         });
+        System.out.println(partidos.get(0));
 //      Instancias de ronda
-
+//        rondas.add(new Ronda());
+//        rondas.get(0).setNro("2");
+//        rondas.get(0).setPartidos(partidos.toArray(new Partido[0]));
+//        System.out.println(rondas.get(0).getPartidos()[0].getEquipo1().getNombre());
+//      Instancias de pronostico
+//        List<String>[] datosPronostico = Archivos.datosArchivo(ARCHIVO_PRONOSTICO);
 
     }
 }
